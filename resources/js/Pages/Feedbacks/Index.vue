@@ -1,8 +1,5 @@
 <script setup>
 import AppLayout from "@/Layouts/AppLayout.vue";
-import PrimaryButton from "@/Components/PrimaryButton.vue";
-import { router } from '@inertiajs/vue3'
-import FeedbackListItem from "@/Pages/Feedbacks/Partials/FeedbackListItem.vue";
 import FeedbackList from "@/Pages/Feedbacks/Partials/FeedbackList.vue";
 
 defineProps(['feedbacks'])
